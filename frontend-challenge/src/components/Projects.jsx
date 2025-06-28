@@ -5,7 +5,7 @@ export default function Projects() {
   const data = texts.projectsSection;
 
   return (
-    <div className="max-h-[575px] flex flex-col">
+    <div id="projects" className="max-h-[575px] flex flex-col">
       <h1 className="font-inter font-semibold text-5xl text-[#1F2937] pb-8 dark:text-baslik">
         {texts.projectsTitle}
       </h1>

@@ -20,8 +20,11 @@ export default function Hero() {
           {data.intro}
         </p>
         <div className="flex flex-row gap-x-4">
-          <a className="social-btn dark:text-black dark:bg-[#E1E1FF]" href="">
-            Hire Me
+          <a
+            className="social-btn bg-[#3730A3] text-[#FFFFFF] dark:text-black dark:bg-[#E1E1FF]"
+            href="mailto:oguzsahiinn@gmail.com"
+          >
+            {data.label}
           </a>
           <a
             className="social-btn dark:text-[#E1E1FF] dark:bg-[#383838]"
@@ -41,7 +44,7 @@ export default function Hero() {
       </div>
       <div>
         <img
-          className="w-[476px] h-[375px] rounded-2xl"
+          className="w-[476px] h-[375px] rounded-2xl shadow-multi object-cover"
           src=".\public\image.png"
           alt=""
         />

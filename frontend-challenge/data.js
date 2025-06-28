@@ -1,10 +1,16 @@
 export const data = {
   en: {
+    headerSection: {
+      label1: 'Skills',
+      label2: 'Projects',
+      label3: 'Hire me',
+    },
     heroSection: {
       name: 'Oğuzhan Şahin',
       greeting: 'Creative thinker\nMinimalism lover',
       intro:
         "Hi, I'm Oğuzhan. I'm a full-stack developer. If you are looking for a  Developer who to craft solid and scalable frontend products with great user experiences. Let's shake hands with me.",
+      label: 'Hire me',
     },
     skillsSection: {
       title: 'Skills',
@@ -87,14 +93,20 @@ export const data = {
     },
   },
   tr: {
+    headerSection: {
+      label1: 'Yetenekler',
+      label2: 'Projeler',
+      label3: 'Beni işe al',
+    },
     heroSection: {
       name: 'Oğuzhan Şahin',
       greeting: 'Yaratıcı düşünen Minimalizm seven',
       intro:
         'Merhaba!, Ben Oğuzhan. Ben bir full-stack geliştiricisiyim. Harika kullanıcı deneyimleri ile sağlam ve ölçeklenebilir frontend ürünleri oluşturacak bir geliştirici arıyorsanız birlikte çalışabiliriz.',
+      label: 'Beni işe al',
     },
     skillsSection: {
-      title: 'Skills',
+      title: 'Yetenekler',
       skills: [
         {
           name: 'JavaScript',

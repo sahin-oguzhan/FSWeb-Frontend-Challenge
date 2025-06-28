@@ -1,4 +1,8 @@
+import { useLanguage } from '../contexts/LanguageContext';
+
 export default function Header() {
+  const { texts } = useLanguage();
+  const data = texts.headerSection;
   return (
     <div>
       <nav className="flex justify-between items-center p-4">
@@ -7,12 +11,19 @@ export default function Header() {
             O
           </p>
         </div>
-        <div className="flex space-x-8">
-          <p className="nav-btn">Skills</p>
-          <p className="nav-btn">Projects</p>
-          <p className="text-lg leading-7 font-medium font-inter text-indigo-800 border-2 px-6 py-2 border-indigo-800 rounded-lg dark:bg-white dark:-text-[#3730A3]">
-            Hire me
-          </p>
+        <div className="flex space-x-12">
+          <a href="#skills" className="nav-btn">
+            {data.label1}
+          </a>
+          <a href="#projects" className="nav-btn">
+            {data.label2}
+          </a>
+          <a
+            href="mailto:oguzsahiinn@gmail.com"
+            className="w-[131px] h-[52px] social-btn dark:bg-white dark:-text-[#3730A3] flex items-center justify-center"
+          >
+            {data.label3}
+          </a>
         </div>
       </nav>
     </div>

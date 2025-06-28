@@ -4,7 +4,7 @@ export default function Skills() {
   const { texts } = useLanguage();
   const data = texts.skillsSection;
   return (
-    <div className="flex flex-col gap-y-8 max-h-[179px] pb-[200px]">
+    <div id="skills" className="flex flex-col gap-y-8 max-h-[179px] pb-[200px]">
       <h1 className="text-5xl leading-none font-semibold dark:text-baslik">
         {data.title}
       </h1>

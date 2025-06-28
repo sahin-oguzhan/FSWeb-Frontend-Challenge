@@ -22,7 +22,7 @@ function App() {
           <Projects />
         </div>
       </div>
-      <div className="max-w-full dark:bg-[#141414] mt-[100px]">
+      <div className="max-w-full bg-[#F9F9F9] dark:bg-[#141414] mt-[100px]">
         <div className="max-w-6xl mx-auto">
           <Footer />
         </div>

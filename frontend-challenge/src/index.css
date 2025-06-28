@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .social-btn {
-  @apply flex items-center text-indigo-800 border-2 border-indigo-800 rounded px-1 py-2 gap-x-2 hover:bg-indigo-800 hover:text-white transition-colors duration-300;
+  @apply flex items-center text-lg leading-7 font-medium text-indigo-800 border-2 border-indigo-800 rounded-lg px-1 py-2 gap-x-2 w-[131px] h-[52px] justify-center;
 }
 
 .social-link-0 {

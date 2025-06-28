@@ -2,9 +2,9 @@ import LanguageSwitcher from './LanguageSwitcher/LanguageSwitcher';
 import ThemeSwitcher from './ThemeSwitcher/ThemeSwitcher';
 
 const Switchers = () => (
-  <div className="flex flex-row gap-x-2 justify-end mt-10 mb-0">
+  <div className="flex flex-row gap-x-2 justify-end mt-10">
     <ThemeSwitcher />
-    <span>|</span>
+    <span className="text-[#777777] font-inter font-bold text-[15px]">|</span>
     <LanguageSwitcher />
   </div>
 );
