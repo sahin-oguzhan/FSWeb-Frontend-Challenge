@@ -7,7 +7,7 @@ import Profile from './components/Profile';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
 import { Flip, Slide, ToastContainer, Zoom, toast } from 'react-toastify';
-import { useEffect } from 'react';
+import { useEffect, useRef } from 'react';
 import { useTheme } from './contexts/ThemeContext';
 import { useLanguage } from './contexts/LanguageContext';
 import { SlActionRedo } from 'react-icons/sl';
@@ -18,7 +18,14 @@ function App() {
   const langData = texts.languageNotify;
   const { theme } = useTheme();
 
+  const isFirstTheme = useRef(true);
+  const isFirstLang = useRef(true);
+
   useEffect(() => {
+    if (isFirstTheme.current) {
+      isFirstTheme.current = false;
+      return;
+    }
     if (theme === 'dark') {
       toast(themeData.dark);
     } else if (theme === 'light') {
@@ -27,6 +34,10 @@ function App() {
   }, [theme]);
 
   useEffect(() => {
+    if (isFirstLang.current) {
+      isFirstLang.current = false;
+      return;
+    }
     if (language) {
       toast(langData.lang);
     }

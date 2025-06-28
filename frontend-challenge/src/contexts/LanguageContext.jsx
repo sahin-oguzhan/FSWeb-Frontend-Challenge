@@ -1,10 +1,11 @@
 import { data } from '../../data';
 import { createContext, useContext, useState } from 'react';
+import useLocalStorage from 'use-local-storage';
 
 const LanguageContext = createContext();
 
 export const LanguageProvider = ({ children }) => {
-  const [language, setLanguage] = useState('en');
+  const [language, setLanguage] = useLocalStorage('lang', 'en');
 
   const toggleLanguage = () => {
     setLanguage(language === 'tr' ? 'en' : 'tr');
