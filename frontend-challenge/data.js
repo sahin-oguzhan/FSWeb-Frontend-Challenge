@@ -1,5 +1,14 @@
+import { LiaFighterJetSolid, LiaGalacticRepublic } from 'react-icons/lia';
+
 export const data = {
   en: {
+    themeNotify: {
+      dark: '🎨 Dark mode switched on!',
+      light: '🎨 Light mode switched on!',
+    },
+    languageNotify: {
+      lang: '🌐 Language switched to English!',
+    },
     headerSection: {
       label1: 'Skills',
       label2: 'Projects',
@@ -93,6 +102,13 @@ export const data = {
     },
   },
   tr: {
+    themeNotify: {
+      dark: '🎨 Karanlık mod açıldı!',
+      light: '🎨 Aydınlık mod açıldı!',
+    },
+    languageNotify: {
+      lang: '🌐 Dil Türkçe olarak değiştirildi!',
+    },
     headerSection: {
       label1: 'Yetenekler',
       label2: 'Projeler',
