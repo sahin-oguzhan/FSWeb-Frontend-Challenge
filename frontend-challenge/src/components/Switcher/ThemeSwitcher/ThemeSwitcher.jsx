@@ -1,16 +1,10 @@
+import { useLanguage } from '../../../contexts/LanguageContext';
 import { useTheme } from '../../../contexts/ThemeContext';
 import { useEffect } from 'react';
 
 const ThemeSwitcher = () => {
   const { theme, toggleTheme } = useTheme();
-
-  useEffect(() => {
-    if (theme === 'dark') {
-      document.documentElement.classList.add('dark');
-    } else {
-      document.documentElement.classList.remove('dark');
-    }
-  }, [theme]);
+  const { language } = useLanguage();
 
   const isDark = theme === 'dark';
 
@@ -46,14 +40,14 @@ const ThemeSwitcher = () => {
               !isDark ? 'opacity-100' : 'opacity-0'
             }`}
           >
-            DARK MODE
+            {language === 'tr' ? 'KARANLIK MOD' : 'DARK MODE'}
           </span>
           <span
             className={`font-inter font-bold text-[15px] text-[#D9D9D9] absolute left-0 top-0 transition-opacity duration-1000 ${
               isDark ? 'opacity-100' : 'opacity-0'
             }`}
           >
-            LIGHT MODE
+            {language === 'tr' ? 'AYDINLIK MOD' : 'LIGHT MODE'}
           </span>
         </span>
       </label>
