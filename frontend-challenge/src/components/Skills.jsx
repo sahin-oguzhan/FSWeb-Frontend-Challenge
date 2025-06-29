@@ -8,7 +8,7 @@ export default function Skills() {
       <h1 className="text-5xl leading-none font-semibold dark:text-baslik">
         {data.title}
       </h1>
-      <div className="flex flex-row gap-x-8 w-full">
+      <div className="flex flex-row max-md:flex-col gap-x-8 max-md:gap-y-10 w-full">
         {data.skills.map((skill, index) => {
           return (
             <div key={index} className="flex flex-col ">

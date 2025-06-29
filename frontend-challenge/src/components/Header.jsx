@@ -4,18 +4,18 @@ export default function Header() {
   const { texts } = useLanguage();
   const data = texts.headerSection;
   return (
-    <div>
-      <nav className="flex justify-between items-center p-4">
-        <div className="bg-[#EEEBFF] rounded-full dark:bg-indigo-800">
+    <div className="">
+      <nav className="flex justify-between max-md:justify-center items-center p-4">
+        <div className="bg-[#EEEBFF] rounded-full dark:bg-indigo-800 max-md:hidden">
           <p className="text-2xl leading-8 font-semibold font-inter text-[#7B61FF] mx-4 my-2 rotate-45 dark:text-[#8F88FF]">
             O
           </p>
         </div>
         <div className="flex space-x-12">
-          <a href="#skills" className="nav-btn">
+          <a href="#skills" className="nav-btn mt-1">
             {data.label1}
           </a>
-          <a href="#projects" className="nav-btn">
+          <a href="#projects" className="nav-btn mt-1">
             {data.label2}
           </a>
           <a

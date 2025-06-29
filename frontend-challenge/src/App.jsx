@@ -6,11 +6,10 @@ import './App.css';
 import Profile from './components/Profile';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
-import { Flip, Slide, ToastContainer, Zoom, toast } from 'react-toastify';
+import { Slide, ToastContainer, toast } from 'react-toastify';
 import { useEffect, useRef } from 'react';
 import { useTheme } from './contexts/ThemeContext';
 import { useLanguage } from './contexts/LanguageContext';
-import { SlActionRedo } from 'react-icons/sl';
 
 function App() {
   const { texts, language } = useLanguage();
@@ -44,28 +43,29 @@ function App() {
   }, [language]);
 
   return (
-    <div className="min-h-screen max-w-full dark:bg-[#252128]">
-      <div className="flex flex-col max-w-6xl mx-auto">
+    <div className="min-h-screen w-full mx-auto max-md:flex max-md:flex-col max-md:gap-y-[1100px] max-md:px-4 dark:bg-[#252128]">
+      <div className="flex flex-col max-w-6xl mx-auto ">
         <div className="flex flex-col gap-y-4 mb-10">
           <ToastContainer
-            position="top-left"
+            position={window.innerWidth <= 768 ? 'bottom-center' : 'top-left'}
             autoClose={3000}
             theme={theme === 'dark' ? 'dark' : 'light'}
             transition={Slide}
             newestOnTop
+            toastClassName="max-md:!w-[200px]"
           />
           <Switchers />
           <Header />
         </div>
-        <div className="flex flex-col gap-y-[100px]">
+        <div className="flex flex-col gap-y-[100px] max-md:gap-y-[400px]">
           <Hero />
           <Skills />
           <Profile />
           <Projects />
         </div>
       </div>
-      <div className="max-w-full bg-[#F9F9F9] dark:bg-[#141414] mt-[100px]">
-        <div className="max-w-6xl mx-auto">
+      <div className="w-full bg-[#F9F9F9] dark:bg-[#141414] mt-[100px] ">
+        <div className="max-w-6xl mx-auto ">
           <Footer />
         </div>
       </div>

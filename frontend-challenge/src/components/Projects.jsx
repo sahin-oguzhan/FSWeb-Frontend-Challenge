@@ -9,7 +9,7 @@ export default function Projects() {
       <h1 className="font-inter font-semibold text-5xl text-[#1F2937] pb-8 dark:text-baslik">
         {texts.projectsTitle}
       </h1>
-      <div className="flex flex-row justify-between w-full">
+      <div className="flex flex-row max-md:flex-col max-md:items-center max-md:gap-y-10 justify-between w-full">
         {data.map((project, index) => {
           return (
             <div className="flex-1 max-w-[300px] rounded overflow-hidden shadow-lg">
