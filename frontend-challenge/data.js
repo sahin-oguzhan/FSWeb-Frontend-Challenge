@@ -1,5 +1,3 @@
-import { LiaFighterJetSolid, LiaGalacticRepublic } from 'react-icons/lia';
-
 export const data = {
   en: {
     themeNotify: {
@@ -7,7 +5,7 @@ export const data = {
       light: '🎨 Light mode switched on!',
     },
     languageNotify: {
-      lang: '🌐 Language switched to English!',
+      lang: '🌐 Dil Türkçe olarak değiştirildi! ',
     },
     headerSection: {
       label1: 'Skills',
@@ -107,7 +105,7 @@ export const data = {
       light: '🎨 Aydınlık mod açıldı!',
     },
     languageNotify: {
-      lang: '🌐 Dil Türkçe olarak değiştirildi!',
+      lang: '🌐 Language switched to English!',
     },
     headerSection: {
       label1: 'Yetenekler',
