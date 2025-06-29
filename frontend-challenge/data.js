@@ -171,7 +171,7 @@ export const data = {
     projectsTitle: 'Projeler',
     projectsSection: [
       {
-        image: './public/card-image1.png',
+        image: '/card-image1.png',
         name: 'Workintech',
         desc: 'Kullanıcıların hangi çerezleri kabul edip hangilerini reddedeceğini seçmesine olanak tanıyan, basit, özelleştirilebilir ve minimal kurulumlu bir çerez eklentisidir. Vanilla JavaScript, SCSS ve Parcel Bundler kullanılarak geliştirilmiştir. NPM paketi olarak kullanılabilir ve Git deposu üzerinden kod ve tema üzerinde her türlü özelleştirme yapılabilir.',
         apps: ['react', 'redux', 'axios'],
@@ -179,7 +179,7 @@ export const data = {
         view: 'https://github.com/sahin-oguzhan',
       },
       {
-        image: './public/card-image2.png',
+        image: '/card-image2.png',
         name: 'Random Jokes',
         desc: 'Kullanıcıların hangi çerezleri kabul edip hangilerini reddedeceğini seçmesine olanak tanıyan, basit, özelleştirilebilir ve minimal kurulumlu bir çerez eklentisidir. Vanilla JavaScript, SCSS ve Parcel Bundler kullanılarak geliştirilmiştir. NPM paketi olarak kullanılabilir ve Git deposu üzerinden kod ve tema üzerinde her türlü özelleştirme yapılabilir.',
         apps: ['react', 'redux', 'axios'],
@@ -187,7 +187,7 @@ export const data = {
         view: 'https://github.com/sahin-oguzhan',
       },
       {
-        image: './public/card-image3.png',
+        image: '/card-image3.png',
         name: 'Journey',
         desc: 'Kullanıcıların hangi çerezleri kabul edip hangilerini reddedeceğini seçmesine olanak tanıyan, basit, özelleştirilebilir ve minimal kurulumlu bir çerez eklentisidir. Vanilla JavaScript, SCSS ve Parcel Bundler kullanılarak geliştirilmiştir. NPM paketi olarak kullanılabilir ve Git deposu üzerinden kod ve tema üzerinde her türlü özelleştirme yapılabilir.',
         apps: ['react', 'redux', 'axios'],
