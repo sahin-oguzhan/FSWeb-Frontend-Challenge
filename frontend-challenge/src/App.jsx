@@ -60,7 +60,7 @@ function App() {
           <Switchers />
           <Header />
         </div>
-        <div className="flex flex-col gap-y-[100px] max-md:gap-y-[400px]">
+        <div className="flex flex-col gap-y-[100px] max-md:gap-y-[500px]">
           <Hero />
           <Skills />
           <Profile />

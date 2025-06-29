@@ -71,7 +71,7 @@ export const data = {
     projectsTitle: 'Projects',
     projectsSection: [
       {
-        image: './public/card-image1.png',
+        image: '/card-image1.png',
         name: 'Workintech',
         desc: 'A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible.',
         apps: ['react', 'redux', 'axios'],
@@ -79,7 +79,7 @@ export const data = {
         view: 'https://github.com/sahin-oguzhan',
       },
       {
-        image: './public/card-image2.png',
+        image: '/card-image2.png',
         name: 'Random Jokes',
         desc: 'A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible.',
         apps: ['react', 'redux', 'axios'],
@@ -87,7 +87,7 @@ export const data = {
         view: 'https://github.com/sahin-oguzhan',
       },
       {
-        image: './public/card-image3.png',
+        image: '/card-image3.png',
         name: 'Journey',
         desc: 'A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible.',
         apps: ['react', 'redux', 'axios'],
