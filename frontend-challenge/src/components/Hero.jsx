@@ -46,7 +46,7 @@ export default function Hero() {
       <div>
         <img
           className="w-[476px] h-[375px] rounded-2xl shadow-multi object-cover"
-          src=".\public\image.png"
+          src="/image.png"
           alt=""
         />
       </div>
