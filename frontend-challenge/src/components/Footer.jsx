@@ -2,6 +2,7 @@ import { useLanguage } from '../contexts/LanguageContext';
 
 export default function Footer() {
   const { texts } = useLanguage();
+  if (!texts) return null;
   const data = texts.footerSection;
 
   return (

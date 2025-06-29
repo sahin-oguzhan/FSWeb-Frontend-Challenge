@@ -2,6 +2,7 @@ import { useLanguage } from '../contexts/LanguageContext.jsx';
 
 export default function Profile() {
   const { texts } = useLanguage();
+  if (!texts) return null;
   const data = texts.profileSection;
 
   return (

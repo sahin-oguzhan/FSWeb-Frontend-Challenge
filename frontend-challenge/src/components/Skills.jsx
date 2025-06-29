@@ -2,6 +2,7 @@ import { useLanguage } from '../contexts/LanguageContext.jsx';
 
 export default function Skills() {
   const { texts } = useLanguage();
+  if (!texts) return null;
   const data = texts.skillsSection;
   return (
     <div id="skills" className="flex flex-col gap-y-8 max-h-[179px] pb-[200px]">

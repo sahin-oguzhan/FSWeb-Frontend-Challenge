@@ -2,6 +2,7 @@ import { useLanguage } from '../contexts/LanguageContext.jsx';
 
 export default function Projects() {
   const { texts } = useLanguage();
+  if (!texts) return null;
   const data = texts.projectsSection;
 
   return (
@@ -12,7 +13,10 @@ export default function Projects() {
       <div className="flex flex-row max-md:flex-col max-md:items-center max-md:gap-y-10 justify-between w-full">
         {data.map((project, index) => {
           return (
-            <div className="flex-1 max-w-[300px] rounded overflow-hidden shadow-lg">
+            <div
+              key={index}
+              className="flex-1 max-w-[300px] rounded overflow-hidden shadow-lg"
+            >
               <img
                 className="w-full"
                 src={project.image}

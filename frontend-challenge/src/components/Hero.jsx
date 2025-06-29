@@ -3,6 +3,7 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 export default function Hero() {
   const { texts } = useLanguage();
+  if (!texts) return null;
   const data = texts.heroSection;
   return (
     <div className="flex flex-row max-md:flex-col max-md:gap-y-10 items-center gap-x-10 max-h-[428px] justify-between ">

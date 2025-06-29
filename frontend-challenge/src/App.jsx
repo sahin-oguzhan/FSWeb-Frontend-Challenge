@@ -13,8 +13,6 @@ import { useLanguage } from './contexts/LanguageContext';
 
 function App() {
   const { texts, language } = useLanguage();
-  const themeData = texts.themeNotify;
-  const langData = texts.languageNotify;
   const { theme } = useTheme();
 
   const isFirstTheme = useRef(true);
@@ -41,6 +39,11 @@ function App() {
       toast(langData.lang);
     }
   }, [language]);
+
+  if (!texts) return null;
+
+  const themeData = texts.themeNotify;
+  const langData = texts.languageNotify;
 
   return (
     <div className="min-h-screen w-full mx-auto max-md:flex max-md:flex-col max-md:gap-y-[1100px] max-md:px-4 dark:bg-[#252128]">

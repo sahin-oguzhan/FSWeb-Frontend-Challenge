@@ -2,6 +2,7 @@ import { useLanguage } from '../contexts/LanguageContext';
 
 export default function Header() {
   const { texts } = useLanguage();
+  if (!texts) return null;
   const data = texts.headerSection;
   return (
     <div className="">
