@@ -18,7 +18,7 @@ export default function Projects() {
               className="flex-1 max-w-[300px] rounded overflow-hidden shadow-lg"
             >
               <img
-                className="w-full"
+                className="w-full h-[225px]"
                 src={project.image}
                 alt="Sunset in the mountains"
               />
@@ -26,7 +26,7 @@ export default function Projects() {
                 <div className="text-indigo-700 font-inter text-3xl font-medium dark:text-altbaslik">
                   {project.name}
                 </div>
-                <p className="text-gray-500 font-inter text-sm leading-[1.25] dark:text-[#FFFFFF]">
+                <p className="text-gray-500 font-inter text-sm leading-[1.25] h-[157px] dark:text-[#FFFFFF]">
                   {project.desc}
                 </p>
               </div>
@@ -41,14 +41,16 @@ export default function Projects() {
               </div>
               <div className="flex justify-between px-6">
                 <a
+                  target="_blank"
                   className="text-indigo-800 decoration-solid underline font-inter font-medium text-base dark:text-[#E1E1FF]"
-                  href="https://github.com/sahin-oguzhan"
+                  href={project.github}
                 >
                   Github
                 </a>
                 <a
+                  target="_blank"
                   className="text-indigo-800 decoration-solid underline font-inter font-medium text-base dark:text-[#E1E1FF]"
-                  href=""
+                  href={project.view}
                 >
                   View Site
                 </a>

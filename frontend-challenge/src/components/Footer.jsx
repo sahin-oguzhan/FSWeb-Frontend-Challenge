@@ -21,8 +21,9 @@ export default function Footer() {
           {data.social.map((social, index) => {
             return (
               <a
+                target="_blank"
                 key={index}
-                href=""
+                href={data.links[index]}
                 className={` social-link-${index} font-medium text-lg font-inter`}
               >
                 {social}
