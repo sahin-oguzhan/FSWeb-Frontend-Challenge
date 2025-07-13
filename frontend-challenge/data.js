@@ -183,7 +183,7 @@ export const data = {
       },
       {
         image: '/card-image2.png',
-        name: 'Random Jokes',
+        name: 'Portfolyo',
         desc: 'React ve Context API kullanılarak geliştirilmiş, kullanıcıların dinamik formlar aracılığıyla veri girişi yapabildiği ve gerçek zamanlı form doğrulamasıyla deneyim sağlayan sade ve özelleştirilebilir bir front-end uygulamasıdır. Axios ile API entegrasyonu sağlanmış olup, modern React pratikleriyle temiz, modüler ve genişletilebilir bir yapı sunar.',
         apps: ['react', 'contextApi', 'axios'],
         github: 'https://github.com/sahin-oguzhan/FSWeb-Frontend-Challenge',
