@@ -20,7 +20,7 @@ export default function Header() {
             {data.label2}
           </a>
           <a
-            href="mailto:oguzsahiinn@gmail.com"
+            href="mailto:oguzhan.sahin99@outlook.com"
             className="w-[131px] h-[52px] social-btn dark:bg-white dark:-text-[#3730A3] flex items-center justify-center"
           >
             {data.label3}

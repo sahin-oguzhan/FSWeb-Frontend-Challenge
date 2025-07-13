@@ -23,7 +23,7 @@ export default function Hero() {
         <div className="flex flex-row gap-x-4 ">
           <a
             className="social-btn bg-[#3730A3] text-[#FFFFFF] dark:text-black dark:bg-[#E1E1FF]"
-            href="mailto:oguzsahiinn@gmail.com"
+            href="mailto:oguzhan.sahin99@outlook.com"
           >
             {data.label}
           </a>

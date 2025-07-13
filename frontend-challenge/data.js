@@ -95,7 +95,7 @@ export const data = {
     ],
     footerSection: {
       desc: "Let's work together on\n your next product.",
-      email: '👉 oguzsahiinn@gmail.com',
+      email: '👉 oguzhan.sahin99@outlook.com',
       social: ['Personal Blog', 'Github', 'Linkedin'],
       links: [
         '/',
@@ -200,7 +200,7 @@ export const data = {
     ],
     footerSection: {
       desc: 'Bir sonraki projeniz üzerinde birlikte çalışalım.',
-      email: '👉 oguzsahiinn@gmail.com',
+      email: '👉 oguzhan.sahin99@outlook.com',
       social: ['Kişisel Blog', 'Github', 'Linkedin'],
       links: [
         '/',
