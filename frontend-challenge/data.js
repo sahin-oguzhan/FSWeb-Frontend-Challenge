@@ -84,10 +84,10 @@ export const data = {
     projectsTitle: 'Projects',
     projectsSection: [
       {
-        image: '/card-image4.png',
+        image: '/card-image5.png',
         name: 'Twitter Clone',
         desc: 'A backend Twitter clone application developed with Spring Boot, providing core features such as user authentication, tweet creation, likes, and comments. Built with a layered architecture (controller, service, repository) and integrated with PostgreSQL using JPA/Hibernate for robust data persistence and relationship management.',
-        apps: ['spring boot, postgresql'],
+        apps: ['spring boot', 'postgresql'],
         github: 'https://github.com/sahin-oguzhan/FSWEB-s19-Challenge',
         view: '',
       },
@@ -220,10 +220,10 @@ export const data = {
     projectsTitle: 'Projeler',
     projectsSection: [
       {
-        image: '/card-image4.png',
+        image: '/card-image5.png',
         name: 'Twitter Clone',
         desc: 'Spring Boot ile geliştirilen bir Twitter klonunun backend uygulaması. Kullanıcı kimlik doğrulama, tweet oluşturma, beğeni ve yorum gibi temel özellikleri sağlar. Katmanlı mimari (controller, service, repository) kullanılarak tasarlanmış ve PostgreSQL ile JPA/Hibernate entegrasyonu sayesinde sağlam veri yönetimi ve ilişkiler sunar.',
-        apps: ['spring boot, postgresql'],
+        apps: ['spring boot', 'postgresql'],
         github: 'https://github.com/sahin-oguzhan/FSWEB-s19-Challenge',
         view: '',
       },
