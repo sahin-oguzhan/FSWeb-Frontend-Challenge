@@ -6,23 +6,19 @@ export default function Projects() {
   const data = texts.projectsSection;
 
   return (
-    <div id="projects" className="max-h-[575px] flex flex-col">
+    <div id="projects" className="">
       <h1 className="font-inter font-semibold text-5xl text-[#1F2937] pb-8 dark:text-baslik">
         {texts.projectsTitle}
       </h1>
-      <div className="flex flex-row max-md:flex-col max-md:items-center max-md:gap-y-10 justify-between w-full">
+      <div className="grid grid-cols-3 max-md:grid-cols-2 gap-y-10 max-md:items-center">
         {data.map((project, index) => {
           return (
             <div
               key={index}
-              className="flex-1 max-w-[300px] rounded overflow-hidden shadow-lg"
+              className="flex flex-col justify-between min-h-[500px] max-w-[300px] rounded overflow-hidden shadow-lg"
             >
-              <img
-                className="w-full h-[225px]"
-                src={project.image}
-                alt="Sunset in the mountains"
-              />
-              <div className="px-6 py-4">
+              <img className="h-[160px] w-[300px]" src={project.image} />
+              <div className="px-6 py-4 flex-1 overflow-y-auto">
                 <div className="text-indigo-700 font-inter text-3xl font-medium dark:text-altbaslik">
                   {project.name}
                 </div>

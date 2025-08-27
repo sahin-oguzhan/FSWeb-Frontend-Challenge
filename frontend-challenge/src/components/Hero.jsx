@@ -22,20 +22,20 @@ export default function Hero() {
         </p>
         <div className="flex flex-row gap-x-4 ">
           <a
-            className="social-btn bg-[#3730A3] text-[#FFFFFF] dark:text-black dark:bg-[#E1E1FF]"
+            className="social-btn bg-[#3730A3] text-[#FFFFFF] dark:text-black dark:bg-[#E1E1FF] hover:bg-white hover:text-indigo-800 dark:hover:bg-[#383838] dark:hover:text-[#E1E1FF]"
             href="mailto:oguzhan.sahin99@outlook.com"
           >
             {data.label}
           </a>
           <a
-            className="social-btn dark:text-[#E1E1FF] dark:bg-[#383838]"
+            className="social-btn dark:text-[#E1E1FF] dark:bg-[#383838] hover:bg-indigo-800 hover:text-white dark:hover:bg-[#E1E1FF] dark:hover:text-black"
             href="https://github.com/sahin-oguzhan"
           >
             <FaGithub size={25} />
             Github
           </a>
           <a
-            className="social-btn dark:text-[#E1E1FF] dark:bg-[#383838]"
+            className="social-btn dark:text-[#E1E1FF] dark:bg-[#383838] hover:bg-indigo-800 hover:text-white dark:hover:bg-[#E1E1FF] dark:hover:text-black"
             href="https://www.linkedin.com/in/oguzsahiinn/"
           >
             <FaLinkedin size={25} />

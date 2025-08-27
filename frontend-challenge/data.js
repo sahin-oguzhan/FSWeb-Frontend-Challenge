@@ -23,6 +23,21 @@ export const data = {
       title: 'Skills',
       skills: [
         {
+          name: 'Spring Boot',
+          icon: '',
+          desc: 'I develop scalable and maintainable backend applications using Spring Boot. I have experience creating RESTful APIs, handling database integration with JPA/Hibernate, and applying layered architecture for clean code and structured project design.',
+        },
+        {
+          name: 'Java',
+          icon: '',
+          desc: 'I use Java to build robust, object-oriented applications, implementing principles like inheritance, encapsulation, and polymorphism. My experience includes working with collections, managing data, and developing console-based or backend systems efficiently.',
+        },
+        {
+          name: 'Sql',
+          icon: '',
+          desc: 'I use SQL to design, query, and manage relational databases. I am experienced in writing complex queries, optimizing database performance, and ensuring data integrity.',
+        },
+        {
           name: 'JavaScript',
           icon: '',
           desc: "Since I started web development, JavaScript has been one of the core building blocks of my projects. I've used it effectively on both front-end and back-end in various scenarios, gaining strong command over user interactions and application logic.",
@@ -53,21 +68,37 @@ export const data = {
           },
           {
             label: 'Education',
-            item: 'Anadolu Ünv. İktisat Lisans, 2023',
+            item: "Anadolu Uni.(Formal) Economics Bachelor's, 2023",
           },
           {
             label: 'Role',
-            item: 'Frontend, UI',
+            item: 'Backend, Full-stack',
           },
         ],
       },
       aboutMe: {
         name: 'About Me',
-        desc: "After graduating from Anadolu University's Economics department, I turned my attention to software development, a field that has always intrigued me. To take this passion further, I enrolled in Workintech's Full Stack Developer training program, where I gained comprehensive knowledge of both front-end and back-end technologies through an intensive curriculum.\n I am proficient in technologies such as React, JavaScript, CSS, Tailwind, and Java. I focus on developing user-centric interfaces while also building sustainable and scalable structures. As a developer open to learning and self-improvement, I am eager to contribute to teams that solve real-world problems.",
+        desc: 'Full-stack developer trained at Workintech’s intensive program. Experienced in building projects with modern front-end and back-end technologies, and motivated to continuously improve through new challenges.',
       },
     },
     projectsTitle: 'Projects',
     projectsSection: [
+      {
+        image: '/card-image4.png',
+        name: 'Twitter Clone',
+        desc: 'A backend Twitter clone application developed with Spring Boot, providing core features such as user authentication, tweet creation, likes, and comments. Built with a layered architecture (controller, service, repository) and integrated with PostgreSQL using JPA/Hibernate for robust data persistence and relationship management.',
+        apps: ['spring boot, postgresql'],
+        github: 'https://github.com/sahin-oguzhan/FSWEB-s19-Challenge',
+        view: '',
+      },
+      {
+        image: '/card-image4.png',
+        name: 'Console App',
+        desc: 'A console-based Library Automation System developed in Java, implementing object-oriented principles such as inheritance, polymorphism, and encapsulation. Manages book lending, returns, and user-book relationships using List, Set, and Map data structures, and provides invoice generation and user limits through a dynamic console interface.',
+        apps: ['java'],
+        github: 'https://github.com/sahin-oguzhan/Java-s15-Challenge',
+        view: '',
+      },
       {
         image: '/card-image1.png',
         name: 'Pizza Website',
@@ -128,6 +159,21 @@ export const data = {
       title: 'Yetenekler',
       skills: [
         {
+          name: 'Spring Boot',
+          icon: '',
+          desc: 'Spring Boot kullanarak ölçeklenebilir ve bakımı kolay backend uygulamaları geliştiriyorum. RESTful API oluşturma, JPA/Hibernate ile veritabanı entegrasyonu ve temiz kod ile yapılandırılmış proje tasarımı için katmanlı mimari uygulama deneyimim var.',
+        },
+        {
+          name: 'Java',
+          icon: '',
+          desc: 'Java kullanarak sağlam ve nesne yönelimli uygulamalar geliştiriyorum; inheritance, encapsulation ve polymorphism gibi prensipleri uyguluyorum. Collections ile veri yönetimi ve konsol tabanlı veya backend sistemleri geliştirme deneyimine sahibim.',
+        },
+        {
+          name: 'Sql',
+          icon: '',
+          desc: 'SQL kullanarak ilişkisel veritabanları tasarlıyor, sorguluyor ve yönetiyorum. Karmaşık sorgular yazma, veritabanı performansını optimize etme ve veri bütünlüğünü sağlama konularında deneyim sahibiyim.',
+        },
+        {
           name: 'JavaScript',
           icon: '',
           desc: 'Web geliştirmeye başladığımdan beri JavaScript, projelerimin temel yapı taşlarından biri oldu. Hem ön yüz hem de arka uç tarafında farklı senaryolarda etkin şekilde kullanarak, kullanıcı etkileşimleri ve uygulama mantıkları konusunda güçlü bir hakimiyet kazandım.',
@@ -158,21 +204,37 @@ export const data = {
           },
           {
             label: 'Eğitim',
-            item: 'Anadolu Ünv. İktisat Lisans, 2023',
+            item: 'Anadolu Ünv.(Örgün öğretim) İktisat Lisans, 2023',
           },
           {
             label: 'Departman',
-            item: 'Frontend, UI',
+            item: 'Backend, Full-stack',
           },
         ],
       },
       aboutMe: {
         name: 'Hakkımda',
-        desc: 'Anadolu Üniversitesi İktisat bölümünden mezun olduktan sonra, her zaman ilgimi çeken yazılım geliştirme alanına yöneldim. Bu tutkumu daha da ileri taşımak için Workintech’te Full Stack Developer eğitimine başladım ve yoğun bir eğitim süreciyle front-end ve back-end teknolojilerine dair kapsamlı bir bilgi birikimi edindim. \n Özellikle React, JavaScript, CSS, Tailwind ve Java gibi teknolojilere hâkimim. Kullanıcı odaklı arayüzler geliştirirken aynı zamanda sürdürülebilir ve ölçeklenebilir yapılar kurmaya özen gösteririm. Öğrenmeye ve kendimi geliştirmeye açık bir geliştirici olarak, gerçek dünya problemlerine çözüm üretebileceğim ekiplerde yer almak istiyorum.',
+        desc: 'Workintech’in yoğun tam zamanlı eğitim programında eğitim almış bir full-stack geliştiriciyim. Modern front-end ve back-end teknolojileri ile projeler geliştirme deneyimine sahibim ve yeni zorluklarla kendimi sürekli geliştirmeye motiveyim.',
       },
     },
     projectsTitle: 'Projeler',
     projectsSection: [
+      {
+        image: '/card-image4.png',
+        name: 'Twitter Clone',
+        desc: 'Spring Boot ile geliştirilen bir Twitter klonunun backend uygulaması. Kullanıcı kimlik doğrulama, tweet oluşturma, beğeni ve yorum gibi temel özellikleri sağlar. Katmanlı mimari (controller, service, repository) kullanılarak tasarlanmış ve PostgreSQL ile JPA/Hibernate entegrasyonu sayesinde sağlam veri yönetimi ve ilişkiler sunar.',
+        apps: ['spring boot, postgresql'],
+        github: 'https://github.com/sahin-oguzhan/FSWEB-s19-Challenge',
+        view: '',
+      },
+      {
+        image: '/card-image4.png',
+        name: 'Console App',
+        desc: 'Java ile geliştirilen konsol tabanlı bir Kütüphane Otomasyon Sistemi. Miras alma (inheritance), çok biçimlilik (polymorphism) ve kapsülleme (encapsulation) gibi nesne yönelimli programlama prensiplerini uygular. List, Set ve Map veri yapıları kullanarak kitap ödünç alma, iade ve kullanıcı-kitap ilişkilerini yönetir ve dinamik konsol arayüzü üzerinden fatura oluşturma ve kullanıcı limitlerini destekler.',
+        apps: ['java'],
+        github: 'https://github.com/sahin-oguzhan/Java-s15-Challenge',
+        view: '',
+      },
       {
         image: '/card-image1.png',
         name: 'Pizza Websitesi',

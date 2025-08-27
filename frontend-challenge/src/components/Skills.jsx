@@ -5,11 +5,11 @@ export default function Skills() {
   if (!texts) return null;
   const data = texts.skillsSection;
   return (
-    <div id="skills" className="flex flex-col gap-y-8 max-h-[179px] pb-[200px]">
+    <div id="skills" className="flex flex-col gap-y-8">
       <h1 className="text-5xl leading-none font-semibold dark:text-baslik">
         {data.title}
       </h1>
-      <div className="flex flex-row max-md:flex-col gap-x-8 max-md:gap-y-10 w-full">
+      <div className="grid grid-cols-3 max-md:grid-cols-1 gap-x-8 gap-y-10 w-full">
         {data.skills.map((skill, index) => {
           return (
             <div key={index} className="flex flex-col ">

@@ -21,7 +21,7 @@ export default function Header() {
           </a>
           <a
             href="mailto:oguzhan.sahin99@outlook.com"
-            className="w-[131px] h-[52px] social-btn dark:bg-white dark:-text-[#3730A3] flex items-center justify-center"
+            className="w-[131px] h-[52px] social-btn bg-[#3730A3] text-[#FFFFFF] dark:text-black dark:bg-[#E1E1FF] hover:bg-white hover:text-indigo-800 dark:hover:bg-[#383838] dark:hover:text-[#E1E1FF]"
           >
             {data.label3}
           </a>
